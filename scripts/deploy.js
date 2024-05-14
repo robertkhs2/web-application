@@ -6,6 +6,7 @@
 // global scope, and execute the script.
 const hre = require("hardhat");
 
+
 async function main() {
   const initBalance = 1;
   const Assessment = await hre.ethers.getContractFactory("Assessment");
